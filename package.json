@@ -1,0 +1,27 @@
+{
+  "name": "react-static-example",
+  "version": "0.0.1",
+  "description": "react as template",
+  "main": "index.ls",
+  "scripts": {
+    "start": "/usr/bin/env lsc ./index.ls > out.svg",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caasi/react-static-example.git"
+  },
+  "keywords": [
+    "react",
+    "example"
+  ],
+  "author": "caasi Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caasi/react-static-example/issues"
+  },
+  "homepage": "https://github.com/caasi/react-static-example#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
