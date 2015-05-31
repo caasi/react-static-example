@@ -5,7 +5,11 @@ require! {
 
 Bar = React.createFactory Bar
 
-console.log React.renderToStaticMarkup do
+const prefix = '<?xml version="1.0" standalone="no"?>\n
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"\n
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\n'
+
+console.log prefix + React.renderToStaticMarkup do
   svg do
     width:  200
     height: 40
